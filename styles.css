@@ -293,3 +293,65 @@ body {
         opacity: 0;
     }
 }
+
+/* ========== MEDIA QUERIES (Font Sizes Only) ========== */
+
+/* Large Screens (Desktops & Laptops) */
+@media screen and (min-width: 1200px) {
+    #greeting {
+        font-size: 3rem;
+    }
+
+    .greetings {
+        font-size: 4rem;
+    }
+
+    #final-greeting {
+        font-size: 3rem;
+    }
+}
+
+/* Medium Screens (Tablets & Small Laptops) */
+@media screen and (max-width: 1024px) {
+    #greeting {
+        font-size: 2.5rem;
+    }
+
+    .greetings {
+        font-size: 3.5rem;
+    }
+
+    #final-greeting {
+        font-size: 2.5rem;
+    }
+}
+
+/* Small Screens (Phones) */
+@media screen and (max-width: 768px) {
+    #greeting {
+        font-size: 5vw;
+    }
+
+    .greetings {
+        font-size: 6vw;
+    }
+
+    #final-greeting {
+        font-size: 4vw;
+    }
+}
+
+/* Extra Small Screens (Phones in Portrait) */
+@media screen and (max-width: 480px) {
+    #greeting {
+        font-size: 4vw;
+    }
+
+    .greetings {
+        font-size: 5vw;
+    }
+
+    #final-greeting {
+        font-size: 3.5vw;
+    }
+}
