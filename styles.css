@@ -344,14 +344,14 @@ body {
 /* Extra Small Screens (Phones in Portrait) */
 @media screen and (max-width: 480px) {
     #greeting {
-        font-size: 4vw;
-    }
-
-    .greetings {
         font-size: 5vw;
     }
 
+    .greetings {
+        font-size: 6vw;
+    }
+
     #final-greeting {
-        font-size: 3.5vw;
+        font-size: 5.5vw;
     }
 }
