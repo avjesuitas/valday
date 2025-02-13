@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday & Valentine's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="music-modal" class="modal">
+        <div class="modal-content">
+            <h2>Enable Background Music?</h2>
+            <button onclick="startSlideshow(true)">Yes</button>
+            <button onclick="startSlideshow(false)">No</button>
+        </div>
+    </div>
+
+    <audio class="song" loop id="youtube-music" autoplay>
+        <source src="hbd.mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <!-- <iframe id="youtube-music" width="0" height="0"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ&mute=1" frameborder="0"
+        allow="autoplay"></iframe> -->
+
+    <div class="container" style="display: none;">
+        <h1 id="greeting">🎉 Happy Birthday & Valentine's! 💖</h1>
+
+        <div class="slideshow-container">
+            <p id="message">Wishing you a day filled with love, joy, and happiness!</p>
+        </div>
+
+        <div id="floating-effects"></div>
+
+        <div id="final-image-container" style="display: none; text-align: center;">
+            <img id="final-image" src="assets/images/final_design.jpg" alt="Final Celebration">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday & Valentine's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="greeting">🎉 Happy Birthday & Valentine's! 💖</h1>
+        <input type="text" id="nameInput" placeholder="Enter Your Name" oninput="updateGreeting()">
+
+        <div class="slideshow-container">
+            <p id="message">Wishing you a day filled with love, joy, and happiness!</p>
+            <img id="slideshow" src="" alt="Celebration Image">
+        </div>
+
+        <div class="music-controls">
+            <button onclick="toggleMusic()">🎵 Toggle Music</button>
+        </div>
+
+        <iframe id="youtube-music" width="0" height="0"
+            src="https://www.youtube.com/embed/GxldQ9eX2wo?autoplay=1&loop=1&playlist=GxldQ9eX2wo&mute=1"
+            frameborder="0" allow="autoplay"></iframe>
+
+        <div id="floating-effects"></div>
+
+        <div id="final-image-container">
+            <img id="final-image" src="val.jpg" alt="Image" style="display:none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

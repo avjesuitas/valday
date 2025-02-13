@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday & Valentine's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Music Modal -->
+    <div id="music-modal" class="modal">
+        <div class="modal-content">
+            <h2>Hi, this is your special day! 🎉💖</h2>
+            <p>Would you like to enable background music?</p>
+            <button onclick="startSlideshow(true)">Yes</button>
+            <button onclick="startSlideshow(false)">No</button>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="background-music" loop>
+        <source src="assets/audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Main Content -->
+    <div class="container" style="display: none;">
+        <h1 id="greeting"></h1> <!-- Typing effect here -->
+        <div class="slideshow-container">
+            <p id="message" class="greetings"></p>
+        </div>
+
+        <div id="floating-effects"></div>
+
+        <!-- Final Image -->
+        <div id="final-image-container" style="display: none;">
+            <img id="final-image" src="assets/images/final_design.jpg" alt="Final Celebration">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
