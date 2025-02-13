@@ -329,15 +329,15 @@ body {
 /* Small Screens (Phones) */
 @media screen and (max-width: 768px) {
     #greeting {
-        font-size: 5vw;
-    }
-
-    .greetings {
         font-size: 6vw;
     }
 
+    .greetings {
+        font-size: 7vw;
+    }
+
     #final-greeting {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
@@ -352,6 +352,6 @@ body {
     }
 
     #final-greeting {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
 }
